@@ -16,6 +16,6 @@ load:{
     type:Number,
     required:true
 }
-},{timestamps:true})
+},{timestamps:true})// giving time stamp also mongo will ad its own id for each new entry in 16bit id encryption
 
 module.exports=mongoose.model('Workout',workoutSchema)
